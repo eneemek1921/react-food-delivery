@@ -1,0 +1,113 @@
+  :root {
+      /* Основные цвета */
+      --bg-dark: #181818;           /* основной фон — чуть светлее */
+      --bg-card: #2b2b2b;            /* фон карточек */
+      --bg-surface: #383838;         /* фон для второстепенных блоков — светлее */
+      --bg-elevated: #2a2a2a;        /* дополнительный фон для выделенных элементов */
+      
+      /* Акцентные цвета (еда) */
+      --primary: #ff7b2c;            /* оранжевый ярче */
+      --primary-hover: #ff954f;      /* оранжевый при наведении */
+      --primary-light: #ff7b2c30;    /* полупрозрачный для подсветок */
+      --primary-dark: #e55a1a;       /* темный оранжевый для контраста */
+      
+      /* Дополнительные акценты */
+      --accent-red: #ff4d4d;         /* красный для скидок/акций */
+      --accent-green: #4caf50;       /* зеленый для успеха/доступно */
+      --accent-yellow: #ffc107;      /* желтый для предупреждений/хитов */
+      --accent-purple: #9c27b0;      /* фиолетовый для премиум */
+      
+      /* Текст */
+      --text-white: #ffffff;          /* основной текст */
+      --text-gray: #e0e0e0;           /* второстепенный текст — светлее */
+      --text-muted: #a0a0a0;          /* неактивный текст */
+      --text-dark: #cccccc;           /* темный текст на светлых фонах */
+      
+      /* Границы и разделители */
+      --border: #3a3a3a;              /* цвет границ — светлее */
+      --border-light: #444444;        /* светлые границы */
+      --border-active: #ff7b2c;       /* активная граница (акцент) */
+      
+      /* Системные */
+      --error: #ff6b6b;               /* ошибка — ярче */
+      --error-dark: #e55a5a;          /* темная ошибка */
+      --success: #6bff6b;             /* успех — ярче */
+      --success-dark: #5ae05a;        /* темный успех */
+      --warning: #ffc107;             /* предупреждение */
+      --warning-dark: #e0a800;        /* темное предупреждение */
+      --info: #4d9eff;               /* информационный */
+      
+      /* Отступы */
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-lg: 24px;
+      --spacing-xl: 32px;
+      --spacing-2xl: 48px;
+      --spacing-3xl: 64px;
+      
+      /* Радиусы */
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --radius-2xl: 32px;
+      --radius-full: 9999px;
+      
+      /* Тени */
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.35);
+      --shadow-glow: 0 0 16px rgba(255, 123, 44, 0.3);  /* свечение акцента */
+      
+      /* Анимации */
+      --transition-fast: 0.15s ease;
+      --transition-normal: 0.25s ease;
+      --transition-slow: 0.4s ease;
+      
+      /* Градиенты */
+      --gradient-primary: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      --gradient-dark: linear-gradient(135deg, #1a1a1a, #0f0f0f);
+      --gradient-card: linear-gradient(135deg, #1a1a1a, #222222);
+      
+      /* Прозрачности */
+      --overlay-light: rgba(255, 255, 255, 0.05);
+      --overlay-medium: rgba(255, 255, 255, 0.1);
+      --overlay-dark: rgba(0, 0, 0, 0.5);
+      
+      /* Дополнительные цвета для карточек */
+      --card-burger: linear-gradient(135deg, #2a1a0a, #1a0f05);
+      --card-snack: linear-gradient(135deg, #1a2a0a, #0f1a05);
+      --card-drink: linear-gradient(135deg, #0a1a2a, #050f1a);
+      
+      /* Цвета для статусов */
+      --status-available: #4caf50;
+      --status-limited: #ff9800;
+      --status-soldout: #f44336;
+      
+      /* Цвета для кнопок */
+      --btn-primary: #ff7b2c;
+      --btn-primary-hover: #ff954f;
+      --btn-secondary: #3a3a3a;
+      --btn-secondary-hover: #4a4a4a;
+      --btn-danger: #ff4d4d;
+      --btn-danger-hover: #ff6b6b;
+      
+      /* Цвета для инпутов */
+      --input-bg: #2a2a2a;
+      --input-border: #3a3a3a;
+      --input-focus: #ff7b2c;
+      
+      /* Цвета для ссылок */
+      --link-color: #ff7b2c;
+      --link-hover: #ff954f;
+      --link-visited: #ff7b2c;
+  }
+
+  * {
+    font-family: monospace;
+  }
+
+  html {
+    background-color: var(--bg-dark);
+  }

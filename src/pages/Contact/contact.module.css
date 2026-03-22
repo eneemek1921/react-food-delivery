@@ -1,0 +1,29 @@
+
+    .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 15vh;
+    }
+
+    .forms {
+        background-color: var(--bg-card);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 400px;
+        height: auto;
+        border-radius: var(--radius-sm);
+    }
+
+    .forms input, .forms button {
+        border-radius: 4px;
+    }
+
+    .pError {
+        color: var(--error);
+    }
+
+    .pSucces {
+        color: var(--success);
+    }

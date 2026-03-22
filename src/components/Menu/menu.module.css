@@ -1,0 +1,40 @@
+
+    .header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .headerContent {
+        display: flex;
+        gap: 200px;
+        padding: 10px;
+        background-color:   var(--bg-surface);
+        border-radius: var(--radius-sm);
+        position: fixed;
+        width: 95%;
+        justify-content: center;
+        top: 0;
+        z-index: 2;
+    }
+
+    .linkCart, .linkHome, .linkAdress, .linkContact {
+        text-decoration: none;
+        color: var(--text-gray);
+        border: none;
+        background-color: transparent;
+        font-size: 3rem;
+        transition: var(--transition-normal);
+    }
+
+    .linkCart:hover, .linkHome:hover, .btnAdress:hover, .btnContact:hover {
+        color: var(--text-white);
+        cursor: pointer;
+    }
+
+    .pAdress {
+        text-decoration: none;
+        color: var(--text-gray);
+        border: none;
+        background-color: transparent;
+    }

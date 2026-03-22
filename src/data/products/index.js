@@ -1,0 +1,5 @@
+export { default as burgerKing } from './burgerKing'
+export { default as kfc } from './kfc'
+export { default as mak } from './mak'
+export { default as ils } from './ils'
+export { default as sv } from './sv'

@@ -1,0 +1,101 @@
+
+    .main {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 2000px;
+        margin-top: 5vh;
+        flex: 1;
+        
+    }
+
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-card);
+        padding: 10px;
+        border-radius: var(--radius-lg);
+        gap: 2vh;
+    }
+
+    .filters {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding-bottom: 10px;
+        border-bottom: 5px solid var(--bg-dark)
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .productCard {
+        display: flex;
+        flex-direction: column;
+        color: var(--text-white);
+        gap: 6px;
+        width: 300px;
+        background-color: var(--bg-surface);
+        padding: 5px;
+        height: auto;
+        border-radius: var(--radius-sm);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        position: relative;
+        text-align: center;
+    }
+
+    .productCard:hover {
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+    }
+
+    .productCard p, .productCard img, .productCard h1, .productCard h2 {
+        margin: 0;
+    }
+
+    .productCard img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: var(--radius-sm);
+    }
+
+    .btnFilt {
+        background-color: transparent;
+        border: none;
+        color: var(--text-muted);
+        transition: var(--transition-fast);
+        font-size: 2rem;
+    }
+
+    .btnFilt:hover {
+        cursor: pointer;
+        color: var(--text-white);
+    }
+
+    .btnFiltActive {
+        color: var(--text-white);
+    }
+
+    .imgLogoCart {
+        width: 50px !important;
+        height: 50px !important;
+        position: absolute;
+        right: 0;
+        transition: var(--transition-fast);
+    }
+
+    .imgLogoCart:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .all {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }

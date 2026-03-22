@@ -1,0 +1,86 @@
+
+    .header {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+        position: relative;
+        
+    }
+
+    .headerContent {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: auto;
+        padding: 10px;
+        background-color: var(--bg-card);
+        border-radius: var(--radius-lg);
+        text-align: center;
+        color: var(--text-white);
+        position: relative;
+    }
+
+    .cart {
+        
+        width: auto;
+        position: sticky;
+        top: 0;
+        align-self: flex-start;
+        justify-content: center;
+        display: flex;
+    }
+
+    .uiCart {
+        display: flex;
+        gap: 100px;
+    }
+
+    .uiBtn {
+        display: flex;
+        gap: 10px;
+    }
+
+    .uiBtn button, .uiLink {
+        background-color: transparent;
+        border: none;
+        color: var(--text-muted);
+        transition: var(--transition-fast);
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+
+    .uiBtn button:hover, .uiLink:hover {
+        cursor: pointer;
+        color: var(--text-white);
+    }
+
+    .productCard {
+        display: flex;
+        gap: 10px;
+        background-color: var(--bg-surface);
+        position: relative;
+        border-radius: var(--radius-sm);
+        padding: 10px;
+    }
+
+    .productCard img {
+        width: 50px;
+        height: 50px;
+        border-radius: var(--radius-lg);
+    }
+
+    .cartLogo {
+        width: 20px !important;
+        height: 20px !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }

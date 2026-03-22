@@ -1,0 +1,44 @@
+
+    .map {
+        width: 1600px;
+        height: 500px;
+        margin-top: 15vh;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+    .mainContent {
+        background-color: var(--bg-card);
+        padding: 10px;
+        border-radius: var(--radius-lg);
+        width: 60%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .forms input, .forms button {
+        border-radius: 5px;
+    }
+
+    .pSucces {
+        color: var(--success);
+    }
+
+    .pError {
+        color: var(--error);
+    }
